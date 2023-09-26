@@ -1,0 +1,58 @@
+.bicicleta{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicleta-imagens{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bicicleta-imagens img{
+  flex: 1;
+  min-width: 200px;
+}
+
+.bicicleta-imagens img:first-child{
+  min-width: 100%;
+}
+
+.bicicleta-conteudo > p {
+  margin-bottom: 32px;
+}
+
+.bicicleta-comprar{
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+.bicicleta-comprar{
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+}
+
+.bicicleta-comprar a{
+  grid-row: span 2;
+}
+
+.bicicleta-comprar span{
+  background-color: var(--cor-12);
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  gap: 8px;
+}
+
+.bicicleta-conteudo h2{
+  letter-spacing: 0.015em;
+  margin-bottom: 12px;
+}

@@ -11,17 +11,24 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--cor-11);
 }
 
 h1,
 h2,
 h3,
 p,
-ul {
+ul,
+blockquote,
+dd {
   margin: 0px;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+img[src$=".jpg"]{
+  border-radius: 4px;
 }
